@@ -9,21 +9,18 @@
   border-end-start-radius: 100px;
   border-end-end-radius: 100px;
   /* position: absolute; */
+  position: relative;
+
  }
     #logo{
-      /* margin-top: 100px;
-      margin-left: 300px; */
-      /* position: relative; */
-
-      /* display: flex; */
-      height:50px;
-      width: 50px;
       position: absolute;
-      margin-top: 80px;
-      margin-left: 100px;
-      margin-right: 80px;
+      align:central;
+      margin-top: 0px;
+      margin-left: 180px;
+      margin-right: 70px;
+      margin-bottom: 50%;
     
-      top: 50%;
+      top: 11%;
       left: 30%;
       transform: translate(-50%, -50%);
     }
@@ -32,14 +29,80 @@
         /* Medical clinic central */
   #medical_clinic{
    
-    border: solid red;
-    background-color: aqua;
+    border: 2px solid black;
+    background-color: rgb(44, 115, 172);
     padding:30px;
-    margin: 20%; */
+    margin-left: 16%; 
+    /* margin-bottom: 20%; */
+    margin-right: 20%;
+    color: aliceblue;
+    font-weight: 800;
+    font-size:xxx-large;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius:100px ;
 }
+  #Lets{
+    border: 2px solid black;
+    background-color: rgb(80, 201, 234);
+    padding:20px;
+    margin-top: 0%;
+    margin-left: 20%; 
+    margin-bottom: 20%;
+    margin-right: 20%;
+    color: aliceblue;
+    font-weight: 600;
+    font-size:xxx-large;
+    
+  }
+  #about{
+    font-size: large;
+    font-weight: 400;
+  }
+  #us{ 
+    font-size: x-large;
+    font-weight: 700;
+   }
 #inj{
   padding-left: 10%;
   
   border-end-end-radius: 50px;
 }
-   
+   #spec{
+    font-size:x-large;
+    font-weight: 400;
+   }
+   #covid{
+    font-size:xx-large;
+    
+    font-weight: 600;
+
+   }
+   .three{
+    align-self: center;
+    height: 100px;
+    width: 130px;
+     padding-left: 30px;
+    /*padding-right: 10spx; */
+   }
+   #three{
+    margin-left: 70px;
+    /* margin-right: 120px; */
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+   }
+   #social{
+    margin-left: 150px;
+   }
+   .color{
+    color: rgb(86, 183, 198);
+   }
+   #our{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: aqua;
+    color: aliceblue;
+    font-weight: 300;
+    font-size: larger;
+  }
