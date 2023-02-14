@@ -6,7 +6,9 @@
 
 #First_background
 { margin-top: 50px;
-  position: absolute;
+  border-end-start-radius: 100px;
+  border-end-end-radius: 100px;
+  /* position: absolute; */
  }
     #logo{
       /* margin-top: 100px;
@@ -17,17 +19,27 @@
       height:50px;
       width: 50px;
       position: absolute;
+      margin-top: 80px;
+      margin-left: 100px;
+      margin-right: 80px;
+    
       top: 50%;
-      left: 50%;
+      left: 30%;
       transform: translate(-50%, -50%);
     }
 
 
         /* Medical clinic central */
   #medical_clinic{
+   
     border: solid red;
     background-color: aqua;
-    padding: 20%;
-    margin: 20%;
+    padding:30px;
+    margin: 20%; */
+}
+#inj{
+  padding-left: 10%;
+  
+  border-end-end-radius: 50px;
 }
    
