@@ -64,7 +64,7 @@
    }
 #inj{
   padding-left: 10%;
-  
+  margin-bottom: 0px;
   border-end-end-radius: 50px;
 }
    #spec{
@@ -82,6 +82,7 @@
     height: 100px;
     width: 130px;
      padding-left: 30px;
+     /* padding: 20px; */
     /*padding-right: 10spx; */
    }
    #three{
@@ -94,15 +95,51 @@
    #social{
     margin-left: 150px;
    }
+   .socialm{
+    padding: 0px;
+    margin: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+
+   }
    .color{
     color: rgb(86, 183, 198);
    }
    #our{
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: aqua;
-    color: aliceblue;
-    font-weight: 300;
+    padding-top: 20px;
+    padding-left:150px;
+    padding-right: 130px;
+    padding-bottom: 30px;
+    /* margin-top: 0px;   */
+    margin-left: 0px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    margin-right: 10px;
+    background-color: rgb(86, 108, 196);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
     font-size: larger;
+    border-top-left-radius: 60px;
+  }
+  #ours{
+    
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    margin-top: 0px;  
+    margin-left: 0px;
+    margin-right: 20px;
+    margin-bottom: 150px;
+    background-color: rgb(86, 108, 196);
+    color: rgb(255, 255, 255);
+    /* font-weight: 600;
+    font-size: larger;
+    border-top-left-radius: 80px; */
+    /* changes */
+    background-color: aqua
+  }
+  .lorem{
+    font-size:larger;
+    font-weight: 400;
   }
